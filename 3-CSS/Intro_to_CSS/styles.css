@@ -1,0 +1,102 @@
+/* universal selectors */
+* {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+span {
+    background-color: aquamarine;
+}
+
+li {
+    background-color: red;
+}
+
+.listClass {
+    background-color: orange;
+}
+
+#listId {
+    background-color: yellow;
+}
+
+li[value="list"] {
+    background-color: green;
+}
+
+.listClass1, .listClass2 {
+    background-color: skyblue;
+}
+
+ul .listClass3 {
+    background-color: indigo;
+    color: white;
+}
+
+    /* Pseduo-classes */
+
+.hoverBtn:hover {
+background-color: black;
+color: white;
+cursor: pointer;
+}
+
+.activeBtn:active {
+    background-color: darkgray;
+    color: black;
+}
+
+.focusInput:focus {
+    background-color: skyblue;
+    border-width: 5px;
+}
+
+.visitedLink:visited {
+    color: red;
+}
+/* pseudo elements */
+
+.firstLetter::first-letter {
+    font-size: 2em;
+}
+
+.firstLine::first-line {
+    color: blue;
+}
+
+.beforeAndAfter::before {
+    content: "before ";
+    color: red;
+}
+
+.beforeAndAfter::after {
+    content: " after";
+    color: blue;
+}
+
+.price::before {
+    content: "$";
+}
+
+.selectParts::selection {
+    background-color: crimson;
+}
+/* earlier rule */
+.cascade {
+    color: red !important;
+}
+/* later rule */
+
+.cascade {
+    color: blue;
+}
+
+/* box model */
+.boxModel {
+    background-color: white;
+    border: 5px rgb(88, 86, 133);
+    border-style: dotted solid;
+    border-radius: 15px;
+    background-color: #efefef;
+    margin: 10px 10px 30px 0px;
+    padding: 10px 0 10px 10px;
+}

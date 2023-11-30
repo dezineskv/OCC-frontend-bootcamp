@@ -1,0 +1,139 @@
+/* Box Sizing */
+.box-content {
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    border: 2px solid black;
+    background-color: lightgray;
+    box-sizing: content-box;
+}
+
+.box-border {
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    border: 2px solid black;
+    background-color: lightblue;
+    box-sizing: border-box;
+}
+
+/* display property */
+.block {
+    display: block;
+    background-color: lightcoral;
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.inline {
+    display: inline;
+    background-color: lightgreen;
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+}
+
+.inline-block {
+    display: inline-block;
+    background-color: lightsalmon;
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+}
+
+/* element positioning */
+.static {
+    position: static;
+    background-color: lightseagreen;
+    width: 200px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.relative {
+    position: relative;
+    background-color: chartreuse;
+    width: 200px;
+    height: 50px;
+    left: 80px;
+    top: 0px;
+}
+
+.absolute {
+    position: absolute;
+    background-color: darkmagenta;
+    width: 200px;
+    height: 50px;
+    top: 0px;
+    left: 80px;
+}
+
+.fixed {
+    position: fixed;
+    background-color: lightpink;
+    width: 200px;
+    height: 50px;
+    top: 0px;
+    right: 20px;
+
+}
+
+.sticky {
+    position: sticky;
+    background-color: deeppink;
+    width: 200px;
+    height: 50px;
+    top: 20px;
+    left: 20px;
+}
+
+.float-right {
+    float: right;
+    background-color: indianred;
+    width: 200px;
+    height: 200px;
+}
+
+.float-left {
+    float: left;
+    background-color: goldenrod;
+    width: 200px;
+    height: 200px;
+}
+
+.clear-floats {
+    clear: both;
+    background-color: yellowgreen;
+    padding: 10px;
+}
+
+/* centering elements */
+.parent-box {
+    height: 200px;
+    width: 300px;;
+    background-color: aqua;
+    margin: 0 auto 10px;
+    text-align: center;
+
+}
+
+.center-horizontal {
+    padding: 20px;
+    background-color: gray;
+}
+
+.center-vertical {
+    background-color: coral;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center-horizontal-vertical {
+    background-color: peru;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
