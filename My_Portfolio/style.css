@@ -1,0 +1,30 @@
+body {
+    background-color: pink;
+}
+
+.bg {
+    width: 100%;
+    background-color: black;
+}
+h1 {
+    text-align: center;
+}
+h5 {
+    text-align: center;
+}
+.centering {
+    text-align: center;
+}
+.myImage {
+    width: 120px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.myCard {
+    margin: auto 0;
+}
+
+ h5.card-title {
+    text-align: left;
+}

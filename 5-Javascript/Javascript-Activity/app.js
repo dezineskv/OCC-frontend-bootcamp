@@ -27,3 +27,11 @@ else {
     console.log("Your score of" + " " + score + " " + "means your grade is:", f);
 }
 
+// for else if's don't need to check all it just satisfies one condition then exiits.
+// if (score >+ 90) {
+//     grade = "A"; 
+// }
+// if (score >+ 80) {
+//     grade = "B"; 
+// }
+

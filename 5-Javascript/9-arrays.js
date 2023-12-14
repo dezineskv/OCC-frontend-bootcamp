@@ -36,3 +36,15 @@ console.log("Joined array", superheros.join("-"));
 // slice method uses first parameter is the starting index and second is the last item to remove. this one removes item 1 and keeps the others beyond item 4.
 let slicedArray = superheros.slice(1, 4)
 console.log(slicedArray);
+
+let superheros2 = ["Superman", "Batman", "Joker", "Spiderman", "Wonder Woman"];
+
+//sliced 
+let slicedArray2 = superheros2.slice(0, 3)
+console.log(slicedArray);
+console.log(superheros2);
+
+// removed elements AND removed from the original array
+let removedElements = superheros2.splice(2,2);
+console.log(removedElements);
+console.log(superheros2);
